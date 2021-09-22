@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="137.0" prefWidth="205.0" style="-fx-background-color: #353535;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="copper.controllers.webapps.WebAppOptionsController">
+   <children>
+      <JFXButton fx:id="deleteBtn" layoutX="28.0" layoutY="80.0" onAction="#deleteWebApp" prefHeight="29.0" prefWidth="149.0" style="-fx-background-color: #dc3545;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="editBtn" layoutX="28.0" layoutY="29.0" onAction="#editWebApp" prefHeight="31.0" prefWidth="149.0" style="-fx-background-color: #6c757d;" text="Edit" textFill="WHITE" />
+   </children>
+</Pane>
