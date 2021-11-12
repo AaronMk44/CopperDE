@@ -28,8 +28,16 @@ public class ComfirmBox
 
         try
         {
-            FXMLLoader loader = new FXMLLoader(getClass().
+        	FXMLLoader loader = null;
+            if(Configurations.getConfig("theme").equals("dark"))
+            {
+                loader = new FXMLLoader(getClass().
+                getResource("/copper/views/dialogs/ComfirmBoxDark.fxml"));
+            }else
+            {
+                loader = new FXMLLoader(getClass().
                 getResource("/copper/views/dialogs/ComfirmBox.fxml"));
+            }
             root = loader.load();
 
             this.ctrl = loader.getController();

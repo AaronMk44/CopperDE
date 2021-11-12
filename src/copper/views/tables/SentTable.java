@@ -59,7 +59,7 @@ public class SentTable
         
         table.setItems(mail);
         table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
-        table.setStyle("-fx-font-size: 15px;");
+        table.setStyle("-fx-font-size: 12px;");
         table.setColumnResizePolicy(new Callback<TableView.ResizeFeatures, Boolean>()
         {
             @Override

@@ -77,8 +77,8 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></VBox>
-      <Label layoutX="24.0" layoutY="673.0" text="Curernt User:" />
-      <Label fx:id="usernameLabel" layoutX="106.0" layoutY="674.0" prefHeight="17.0" prefWidth="684.0" />
+      <Label layoutX="24.0" layoutY="673.0" text="Curernt User:" textFill="#b6b6b6" />
+      <Label fx:id="usernameLabel" layoutX="106.0" layoutY="674.0" prefHeight="17.0" prefWidth="684.0" textFill="#b6b6b6" />
       <VBox fx:id="fileManagerCont" alignment="CENTER" layoutX="628.0" layoutY="140.0" onMouseClicked="#loadFileManager" prefHeight="200.0" prefWidth="188.0" spacing="10.0" style="-fx-background-color: #353535; -fx-background-radius: 10;" styleClass="container">
          <children>
             <ImageView fitHeight="150.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
